@@ -1,11 +1,11 @@
-# XXpet —— QQ 宠物跨平台复刻版（深度定制增强版）
+# XXpet —— xx宠物跨平台复刻版（深度定制增强版）
 
-> 本项目基于 [AnkioTomas](https://github.com/AnkioTomas) 的 **QQPet**（QQ 宠物跨平台复刻版，基于 Arctic Penguin T800 逆向重建）二次开发，独立命名为 **XXpet**。
+> 本项目基于 [AnkioTomas](https://github.com/AnkioTomas) 的 **QQPet**（xx宠物跨平台复刻版，基于 Arctic Penguin T800 逆向重建）二次开发，独立命名为 **XXpet**。
 > 原作者及版权归属 AnkioTomas（GPL-3.0）。本仓库为**在原版基础上的功能增强与定制更新**，不包含原作者的原始源码仓库（已不可访问），仅提供修改后的运行产物与说明。
 
 ## 项目简介
 
-XXpet 是 QQ 宠物（QQPet/QQPets）的跨平台复刻实现，使用 Electron + Ruffle（Flash 运行时）还原经典桌宠体验。本仓库在**原版功能完整保留**的前提下，加入了以下增强：
+XXpet 是 xx宠物（QQPet/QQPets）的跨平台复刻实现，使用 Electron + Ruffle（Flash 运行时）还原经典桌宠体验。本仓库在**原版功能完整保留**的前提下，加入了以下增强：
 
 ### 新增功能（基于原版的更新）
 
