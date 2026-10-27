@@ -1,4 +1,4 @@
-import { app, dialog, protocol, net, ipcMain, BrowserWindow, Tray, Menu, screen, nativeImage, session, clipboard, shell as shell$1, powerMonitor } from "electron";
+﻿import { app, dialog, protocol, net, ipcMain, BrowserWindow, Tray, Menu, screen, nativeImage, session, clipboard, shell as shell$1, powerMonitor } from "electron";
 import { existsSync, lstatSync, openSync, writeSync, closeSync, rmSync, readdirSync, mkdirSync, writeFileSync, renameSync, readFileSync, fstatSync, readSync, copyFileSync } from "node:fs";
 import { tmpdir, networkInterfaces } from "node:os";
 import { join, dirname, normalize, isAbsolute, sep } from "node:path";
@@ -231,7 +231,7 @@ function calendar(fetch) {
   }
   return cache.days;
 }
-const API$1 = "https://api.ankio.net/gh/repos/AnkioTomas/qqpet/releases/latest";
+const API$1 = "https://api.github.com/repos/piggyuuuu/Pet/releases/latest";
 async function latestRelease(fetch) {
   return withTimeoutSignal(2e4, async (signal) => {
     const r = await fetch(API$1, { signal });
@@ -587,7 +587,7 @@ async function importPack(win) {
 function resetPacks() {
   rmSync(packsDir(), { recursive: true, force: true });
 }
-const INDEX = "https://github.com/AnkioTomas/qqpet/releases/latest/download/packs.json";
+const INDEX = "https://github.com/piggyuuuu/Pet/releases/latest/download/packs.json";
 let offered = null;
 async function findPack(fetch, url = INDEX) {
   const index = await fetchIndex(fetch, url);
