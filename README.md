@@ -1,11 +1,11 @@
-# QQPet —— QQ宠物跨平台复刻版（深度定制增强版）
+# XXpet —— QQ 宠物跨平台复刻版（深度定制增强版）
 
-> 本项目基于 [AnkioTomas](https://github.com/AnkioTomas) 的 **QQPet**（QQ 宠物跨平台复刻版，基于 Arctic Penguin T800 逆向重建）二次开发。
+> 本项目基于 [AnkioTomas](https://github.com/AnkioTomas) 的 **QQPet**（QQ 宠物跨平台复刻版，基于 Arctic Penguin T800 逆向重建）二次开发，独立命名为 **XXpet**。
 > 原作者及版权归属 AnkioTomas（GPL-3.0）。本仓库为**在原版基础上的功能增强与定制更新**，不包含原作者的原始源码仓库（已不可访问），仅提供修改后的运行产物与说明。
 
 ## 项目简介
 
-QQPet 是 QQ 宠物（QQPet/QQPets）的跨平台复刻实现，使用 Electron + Ruffle（Flash 运行时）还原经典桌宠体验。本仓库在**原版功能完整保留**的前提下，加入了以下增强：
+XXpet 是 QQ 宠物（QQPet/QQPets）的跨平台复刻实现，使用 Electron + Ruffle（Flash 运行时）还原经典桌宠体验。本仓库在**原版功能完整保留**的前提下，加入了以下增强：
 
 ### 新增功能（基于原版的更新）
 
@@ -30,10 +30,13 @@ QQPet 是 QQ 宠物（QQPet/QQPets）的跨平台复刻实现，使用 Electron 
    - 互动/逗弄/聊天每次增加心情值大幅提升（约 4~5 次互动即可加满）
    - 心情自然衰减速度降为原版的 20%，宠物更容易保持好心情
 
+5. **自动更新指向本仓库**
+   - 版本检测 API 与内容包地址已改为本仓库（piggyuuuu/Pet），应用内「检查更新」将直接跳转本仓库的 Release 下载页
+
 ## 目录结构
 
 ```
-qqpet/
+XXpet/
 ├── out/                    # 编译产物（Electron 主进程 + 渲染进程）
 │   ├── main/               # 主进程代码
 │   ├── preload/            # 预加载脚本
@@ -51,14 +54,14 @@ npm install
 npx electron .
 ```
 
-应用会读取本机 `%APPDATA%/QQPet/save.json` 作为存档（不在本仓库内）。AI 对话需在设置页填写 `AI 地址 / Key / 模型`（或本地起一个 OpenAI 兼容服务）。
+应用存档位置继承自原版（`%APPDATA%/QQPet/save.json`，不在本仓库内）。AI 对话需在设置页填写 `AI 地址 / Key / 模型`（或本地启动一个 OpenAI 兼容服务）。
 
 ## 原版信息
 
-- 原项目作者：**AnkoiTomas**
-- 原项目：`AnkoiTomas/qqpet`（GitHub，当前已不可访问）
+- 原项目作者：**AnkioTomas**
+- 原项目：`AnkioTomas/qqpet`（GitHub，当前已不可访问）
 - 许可协议：GPL-3.0
 
 ## 免责声明
 
-本项目仅用于个人学习与娱乐，不隶属腾讯，与腾讯无任何关联。请遵守当地法律法规，尊重原作者版权。
+本项目仅用于个人学习与娱乐，与腾讯无任何关联。请遵守当地法律法规，尊重原作者版权。
