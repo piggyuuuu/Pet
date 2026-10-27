@@ -1,0 +1,20 @@
+{
+  "name": "qqpet",
+  "productName": "QQPet",
+  "version": "0.7.1",
+  "description": "QQ 宠物跨平台复刻版（基于 Arctic Penguin T800 逆向重建）",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "type": "module",
+  "main": "out/main/index.js",
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true,
+    "koffi@3.3.3": true
+  },
+  "dependencies": {
+    "koffi": "^3.3.3",
+    "sherpa-onnx-node": "^1.13.8"
+  }
+}

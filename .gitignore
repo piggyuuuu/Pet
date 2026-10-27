@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# local user data / secrets
+save.json
+*.bak
+*.prev-*
+*.orig*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# logs
+*.log
+
+# local build artifacts that are environment-specific
+dist/
+build/

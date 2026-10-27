@@ -1,0 +1,8 @@
+{
+  "source": "adabc1696a2f1f95715ede6be0ac00a73364895c8e599039e60fef3b2f52efa4",
+  "binaryen": "123.0.0",
+  "features": [
+    "mutable-globals"
+  ],
+  "output": "abde98a89db0e5b62a69235eaa370e6861676ed00d770b9901bf8be6d4c0b166"
+}
